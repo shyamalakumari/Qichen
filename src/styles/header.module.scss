@@ -1,0 +1,58 @@
+@import "./constants.scss";
+
+
+.container{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 0.3rem;
+margin-top: 0.2rem;
+// position: fixed;
+.logo{
+
+background-color: #DF3F00;
+width: 160px;
+height: 60px;
+margin-left: 0.5rem;
+border-radius: 5px;
+}
+
+.list{
+
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+align-items: center;
+gap: 2rem;
+font-size: 20px;
+margin-right: 13rem;
+@include robotoRegular;
+li{
+    font-weight: bold;
+}
+}
+.book{
+ border-radius: 5px;
+background-color: #DF3F00;
+width: 160px;
+font-weight: bold;
+height: 60px;
+margin-right: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+@include robotoRegular;
+}
+
+.num{
+
+ font-size: 20px;   
+ @include robotoRegular;
+ font-weight: bold;
+}
+
+}
+
+
